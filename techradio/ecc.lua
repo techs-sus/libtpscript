@@ -17,7 +17,7 @@
 -- Fix global variable declarations in modQ division and verify() (no security concerns)
 -- Small tweaks from SquidDev's illuaminate (https://github.com/SquidDev/illuaminate/)
 if _VERSION ~= "Luau" then
-	error("Sorry, this ported library only works on Luau.", 0)
+	error("Sorry, this **ported** library only works on Luau.", 0)
 	return
 end
 type StringOrByteArray = { string } | string
