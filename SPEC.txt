@@ -1,0 +1,14 @@
+# This spec is UNFINISHED. It was ment for a risc-v emulator, but that is so hard i aeuiwhdbgerigeuohqedoj
+
+vm -> intrepret commands, and execute them
+
+aot -> [
+	* create an ast from an risc-v binary
+	* emulate x11???
+	* compile directly to lua bytecode (oh no)
+]
+
+jit -> [
+	* basically the vm but we will do dynamic optimizations
+	* should be atleast 3% faster than vm
+]
